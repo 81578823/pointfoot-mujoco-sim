@@ -10,6 +10,7 @@ import limxsdk.robot.Robot as Robot
 import limxsdk.robot.RobotType as RobotType
 import limxsdk.datatypes as datatypes
 
+
 class SimulatorMujoco:
     def __init__(self, asset_path, joint_sensor_names, robot): 
         self.robot = robot
